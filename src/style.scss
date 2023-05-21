@@ -1,0 +1,9 @@
+$primary: coral;
+$button-border-width: 30px;
+@import "../node_modules/bulma/bulma.sass";
+
+
+$bgcolor: coral;
+html {
+    background-color: lighten($color: $bgcolor, $amount: 10%);
+}
