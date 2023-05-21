@@ -17,7 +17,6 @@ export default {
                 this.items.push(this.message);
                 this.message = '';
             }
-
         }
     }
 }
@@ -27,8 +26,6 @@ export default {
 
 <template>
     <div>
-
-       
         <input type="text" v-model="message" />
 
         <p>Message is: {{ message }}</p>
